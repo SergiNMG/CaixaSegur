@@ -4,6 +4,7 @@
   --color-light: #ffffff;
   --color-text-body: #796e70;
   --color-text-title: #3d3d3d;
+  --color-title-dark: #3d3d3d;
   --color-border-card: #778899;
   --color-text-dark: #666666;
   --color-blue-back: #bce0fd;
@@ -11,6 +12,7 @@
   --font-stack: "Open Sans", sans-serif;
   --font-size-1: 18px;
   --font-size-2: 24px;
+  --font-size-3: 30px;
 }
 
 .l-flex {
@@ -199,6 +201,9 @@
 
 .c-title {
   font-family: var(--font-stack);
+}
+.c-title--big {
+  font-size: var(--font-size-3);
 }
 
 .g--padding-0 {
@@ -1607,6 +1612,14 @@
 
 .g--bg-color-blue {
   background-color: var(--color-blue-back);
+}
+
+.g--text-uppercase {
+  text-transform: uppercase;
+}
+
+.g--title-color {
+  color: #3d3d3d;
 }
 
 /*# sourceMappingURL=main.css.map */
