@@ -99,7 +99,7 @@
   padding: 3% 10% 3% 10%;
 }
 
-.c-card {
+.c-card-service {
   display: grid;
   align-items: center;
   border: 1px var(--color-border-card);
@@ -109,35 +109,35 @@
   margin: 10px;
   padding: 20px;
 }
-.c-card--backgoundColor-blue {
+.c-card-service--backgoundColor-blue {
   background-color: var(--color-blue);
 }
-.c-card--backgoundColor-blue {
+.c-card-service--backgoundColor-blue {
   background-color: var(--color-blue);
 }
-.c-card--backgroundColor-pink {
+.c-card-service--backgroundColor-pink {
   background-color: var(--color-pink);
 }
-.c-card__title {
+.c-card-service__title {
   font-weight: bold;
   color: var(--color-text-title);
 }
-.c-card__title--color-dark {
+.c-card-service__title--color-dark {
   color: var(--color-text-title);
 }
-.c-card__body {
+.c-card-service__body {
   color: var(--color-text-body);
 }
-.c-card__body--color-dark {
+.c-card-service__body--color-dark {
   color: var(--color-text-body);
 }
-.c-card__title--color-white {
+.c-card-service__title--color-white {
   color: var(--color-light);
 }
-.c-card__body--color-white {
+.c-card-service__body--color-white {
   color: var(--color-light);
 }
-.c-card__button {
+.c-card-service__button {
   width: fit-content;
   font-weight: bold;
   padding: 15px;
@@ -145,30 +145,30 @@
   border-radius: 5px;
   border: 1px solid;
 }
-.c-card__button:hover {
+.c-card-service__button:hover {
   cursor: pointer;
 }
-.c-card__button--backgroundColor-blue {
+.c-card-service__button--backgroundColor-blue {
   background-color: var(--color-blue);
 }
-.c-card__button--backgroundColor-white {
+.c-card-service__button--backgroundColor-white {
   background-color: var(--color-light);
 }
-.c-card__button--color-white {
+.c-card-service__button--color-white {
   color: var(--color-light);
 }
-.c-card__button--color-blue {
+.c-card-service__button--color-blue {
   color: var(--color-blue);
 }
-.c-card__button--color-blue:hover {
+.c-card-service__button--color-blue:hover {
   background-color: var(--color-blue);
   color: var(--color-light);
   border-color: var(--color-light);
 }
-.c-card__button--color-pink {
+.c-card-service__button--color-pink {
   color: var(--color-pink);
 }
-.c-card__button--color-pink:hover {
+.c-card-service__button--color-pink:hover {
   background-color: var(--color-pink);
   color: var(--color-light);
   border-color: var(--color-light);
