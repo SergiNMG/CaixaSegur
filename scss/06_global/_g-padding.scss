@@ -1,0 +1,59 @@
+$paddings:0px, 4px, 6x, 8px, 10px, 12px, 16px, 20px, 24px, 32px, 40px, 48px, 64px, 80px, 96px, 128px, 160px, 192px, 224px, 256px, 320px, 480px, 640px;
+
+$index:0;
+@each $padding in $paddings {
+  .g--padding-#{$index}{
+    padding: $padding;
+  }
+  $index:$index+1;
+}
+
+$index:0;
+@each $padding in $paddings {
+  .g--padding-vertical-#{$index}{
+    padding-top: $padding;
+    padding-bottom: $padding;
+  }
+  $index:$index+1;
+}
+
+$index:0;
+@each $padding in $paddings {
+  .g--padding-horizontal-#{$index}{
+    padding-left: $padding;
+    padding-right: $padding;
+  }
+  $index:$index+1;
+}
+
+$index:0;
+@each $padding in $paddings {
+  .g--padding-left-#{$index}{
+    padding-left: $padding;
+  }
+  $index:$index+1;
+}
+
+$index:0;
+@each $padding in $paddings {
+  .g--padding-right-#{$index}{
+    padding-right: $padding;
+  }
+  $index:$index+1;
+}
+
+$index:0;
+@each $padding in $paddings {
+  .g--padding-top-#{$index}{
+    padding-top: $padding;
+  }
+  $index:$index+1;
+}
+
+$index:0;
+@each $padding in $paddings {
+  .g--padding-bottom-#{$index}{
+    padding-bottom: $padding;
+  }
+  $index:$index+1;
+}
