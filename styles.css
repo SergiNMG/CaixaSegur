@@ -1,0 +1,87 @@
+
+:root {
+    --color-pink: #c30080;
+    --color-blue: #009ddd;
+    --color-light: #ffffff;
+
+    --color-text-body: #796e70;
+    --color-text-title: #3d3d3d;
+
+    --color-border-card: #778899;
+}
+
+.l-card {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.c-card {
+    align-items: center;
+    border: 1px var(--color-border-card);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.c-card--backgoundColor-blue{
+    background-color: var(--color-blue);
+}
+
+.c-card--backgroundColor-pink{
+    background-color: var(--color-pink);
+}
+
+.c-card__title{
+    font-weight: bold;
+    color: var(--color-text-title);
+}
+
+.c-card__title--color-dark{
+    color: var(--color-text-title);
+}
+
+.c-card__body{
+    color: var(--color-text-body)
+}
+
+.c-card__body--color-dark{
+    color: var(--color-text-body);
+}
+
+.c-card__title--color-white{
+    color: var(--color-light);
+}
+
+.c-card__body--color-white{
+    color: var(--color-light);
+}
+
+.c-card__button{
+    font-style: bold;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.c-card__button--backgroundColor-blue{
+    background-color: var(--color-blue);
+}
+
+.c-card__button--backgroundColor-white{
+    background-color: var(--color-light);
+}
+
+.c-card__button--color-white{
+    color: var(--color-light);
+}
+
+.c-card__button--color-blue{
+    color: var(--color-blue);
+}
+
+.c-card__button--color-pink{
+    color: var(--color-pink);
+}
+
+
