@@ -1,0 +1,30 @@
+.c-button{
+
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 13px;
+
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+
+    margin-right: 10px;
+    
+
+    &--doctor{
+
+    }
+
+    &--cliente{
+
+        border-color: var(--color-blue-2);
+        background-color: var(--color-blue-2);
+        color: var(--color-light);
+    }
+
+    &--buscar{
+        border-color: var(--color-dark-grey);
+        background-color: var(--color-dark-grey);
+        color: var(--color-light);
+    }
+}
