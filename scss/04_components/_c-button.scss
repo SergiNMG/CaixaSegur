@@ -1,0 +1,16 @@
+
+.c-button {   
+    padding: 16px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    width: fit-content;
+    border: 2px solid var(--color-blanco);
+    color: var(--color-blanco);
+
+    &:hover {
+        background-color: var(--color-blanco);
+        color: var(--color-azul);
+    }
+}
+
