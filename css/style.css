@@ -1,0 +1,68 @@
+:root {
+  --color-azul: #009ddd;
+  --color-blanco: #FFFFFF;
+  --color-fucsia:#c30080;
+}
+
+.c-promo {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  max-width: 1200px;
+  padding: 70px;
+  margin: 0 auto;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.c-promo__content {
+  flex: 1;
+  padding: 32px 40px;
+  color: var(--color-blanco);
+}
+.c-promo__title {
+  font-size: 16px;
+  color: var(--color-azul);
+  margin-top: 0;
+  width: fit-content;
+}
+.c-promo__subtitle {
+  font-size: 22px;
+}
+.c-promo__text {
+  background-color: #c30080;
+  padding: 15px;
+  border-radius: 2px;
+  margin-bottom: 50px;
+  width: fit-content;
+}
+.c-promo__image {
+  flex: 1;
+} 
+.c-promo__image-img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c-button {
+  padding: 16px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  width: fit-content;
+  border: 2px solid var(--color-blanco);
+  color: var(--color-blanco);
+}
+.c-button:hover {
+  background-color: var(--color-blanco);
+  color: var(--color-azul);
+}
+
+.g--bg-base {
+  background-color: var(--color-azul);
+}
+
+.g--bg-principal {
+  background-color: var(--color-blanco);
+}
+
+/*# sourceMappingURL=style.css.map */
