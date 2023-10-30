@@ -2150,6 +2150,10 @@ html {
   background-color: var(--color-blanco);
 }
 
+.g--box-shadow-none {
+  box-shadow: none;
+}
+
 .g--box-shadow-1 {
   box-shadow: 0 1px 3px hsl(0, 100%, 50%);
 }
@@ -2158,15 +2162,15 @@ html {
   box-shadow: 0 4px 6px hsl(231, 100%, 51%);
 }
 
-.g--box-shadow-3 {
+.g--box-shadow {
   box-shadow: 0 5px 15px hsl(234, 100%, 41%);
 }
 
-.g--box-shadow-4 {
+.g--box-shadow-3 {
   box-shadow: 0 10px 24px hsl(0, 100%, 40%);
 }
 
-.g--box-shadow-5 {
+.g--box-shadow-4 {
   box-shadow: 0 15px 35px hsl(0, 100%, 50%);
 }
 
