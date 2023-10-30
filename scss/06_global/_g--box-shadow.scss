@@ -1,0 +1,24 @@
+@mixin box-shadow($box-shadow){
+    -webkit-box-shadow: $box-shadow;
+    -moz-box-shadow: $box-shadow;
+    box-shadow: $box-shadow;
+}
+
+$box-shadows: (
+    "none" : none,
+    "shadow1": 0 1px 3px hsl(0, 100%, 50%),
+    "shaow2": 0 4px 6px hsl(231, 100%, 51%),
+    "": 0 5px 15px hsl(234, 100%, 41%),
+    "shadow3": 0 10px 24px hsl(0, 100%, 40%),
+    "shadow4" 0 15px 35px hsl(0, 100%, 50%),
+);
+
+//@for $i from 1 through length($box-shadows){
+//    $box-shadow:nth($box-shadows,$i);
+//    .g--box-shadow-#{$i} {
+//        box-shadow:$box-shadow;
+//    }
+//}
+
+
+
