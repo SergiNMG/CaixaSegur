@@ -2150,4 +2150,40 @@ html {
   background-color: var(--color-blanco);
 }
 
+.g--box-shadows-none {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.g--box-shadows-sm {
+  -webkit-box-shadow: 0 1px 3px hsl(0, 0%, 0%);
+  -moz-box-shadow: 0 1px 3px hsl(0, 0%, 0%);
+  box-shadow: 0 1px 3px hsl(0, 0%, 0%);
+}
+
+.g--box-shadows {
+  -webkit-box-shadow: 0 4px 6px hsl(0, 0%, 0%);
+  -moz-box-shadow: 0 4px 6px hsl(0, 0%, 0%);
+  box-shadow: 0 4px 6px hsl(0, 0%, 0%);
+}
+
+.g--box-shadows-lg {
+  -webkit-box-shadow: 0 5px 15px hsl(0, 0%, 0%);
+  -moz-box-shadow: 0 5px 15px hsl(0, 0%, 0%);
+  box-shadow: 0 5px 15px hsl(0, 0%, 0%);
+}
+
+.g--box-shadows-xlg {
+  -webkit-box-shadow: 0 10px 24px hsl(0, 64%, 40%);
+  -moz-box-shadow: 0 10px 24px hsl(0, 64%, 40%);
+  box-shadow: 0 10px 24px hsl(0, 64%, 40%);
+}
+
+.g--box-shadows-xxlg {
+  -webkit-box-shadow: 0 1 5px 35px hsl(0, 0%, 0%);
+  -moz-box-shadow: 0 1 5px 35px hsl(0, 0%, 0%);
+  box-shadow: 0 1 5px 35px hsl(0, 0%, 0%);
+}
+
 /*# sourceMappingURL=main.css.map */

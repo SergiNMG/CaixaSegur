@@ -1,0 +1,49 @@
+$box-shadows:(
+  "none": none,
+  "sm": 0 1px 3px hsla(0,0%,0%,2),
+  "": 0 4px 6px hsla(0,0%,0%,2),
+  "lg": 0 5px 15px hsla(0,0%,0%,2),
+  "xlg": 0 10px 24px hsla(0, 64%, 40%, 02),
+  "xxlg": 0 1 5px 35px hsla(0,0%,0%,2)
+);
+
+@mixin box-shadow($box-shadow){
+  -webkit-box-shadow: $box-shadow;
+  -moz-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
+}
+
+//@for $i from 1 through length($box-shadows){
+//  $box-shadow:nth($box-shadows,$i);
+//   .g--box-shadows-#{$i}{
+//  }
+//}
+
+//.g--box-none{
+//  @include box-shadow(none);
+//}
+
+
+@each $key in map-keys($box-shadows){
+  $box-shadow:map-get($box-shadows,$key);
+
+  $separator:"-";
+  @if $key==""{
+    $separator:"";
+  }
+
+  .g--box-shadows#{$separator}#{$key}{
+    @include box-shadow($box-shadow) ;
+  }
+}
+
+
+
+
+//$index:1;
+//@each $box-shadow in $box-shadows{
+//  .g--box-shadows-#{$index}{
+//    @include box-shadow($box-shadow) ;
+//  }
+//  $index:$index+1;
+//}
