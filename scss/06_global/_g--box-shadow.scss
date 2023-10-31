@@ -32,7 +32,6 @@ $box-shadows: (
             box-shadow: $valor;
         }
     }
-
     @else {
         .g--box-shadow {
             box-shadow: $valor;
