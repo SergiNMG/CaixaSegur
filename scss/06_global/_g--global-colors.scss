@@ -1,0 +1,71 @@
+$colors:(
+        "primary":(#DCEBFE, #BEDBFE, #91C3FD, #61A6FA, #3C83F6, #2463EB, #1D4FD7, #1E3FAE, #1E3B8A),
+        "alterntaive":(#FEF3C8, #FDE68B, #FCD44F, #FBBD23, #F59F0A, #DB7706, #B35309, #91400D, #76350F),
+        "greys":(#f0f0f0, #D9D9D9, #C2C2C2, #ABABAB, #949494, #7D7D7D, #666666, #4F4F4F, #383838),
+        "white":(#FFFFFF, #FCFCFC, #FAFAFA, #F7F7F7, #F5F5F5, #F2F2F2, #F0F0F0, #EDEDED, #EBEBEB),
+        "reds": (#FEE1E1, #FEC8C8, #FCA6A6, #F87272, #EF4343, #DC2828, #BA1C1C, #981B1B, #811D1D),
+        "greens": (#E3F9E5, #C5EBCA, #A6DDAF, #84CE96, #61BE7E, #47A766, #3D9149, #317A3C, #2B6B34),
+        "blues": (#DDEEFB, #BDD7F8, #97BFF5, #6D9EEB, #4D7DDA, #375CC5, #2F4FBF, #263D9C, #1F3182),
+        "yellows": (#FEF9C8, #FEF08A, #FDE047, #FACC15, #E9B814, #D4A013, #B7830F, #975A16,#7C421F)
+);
+
+
+:root{
+  @each $nombrecolores,$value in $colors {
+    $index:0;
+    @each $color in $value{
+      $index:$index+1;
+      --color-#{$nombrecolores}-#{$index}: #{$color};
+    }
+  }
+}
+
+@each $nombrecolores,$value in $colors {
+  $index:0;
+  @each $color in $value{
+    $index:$index+1;
+    $colorVariable: var(--color-#{$nombrecolores}-#{$index});
+    $variable-text:#{$nombrecolores}-#{$index};
+
+    .g--color-#{$variable-text}{
+      color: $colorVariable;
+    }
+    .g--background-color-#{$variable-text}{
+      background-color: $colorVariable;
+    }
+    .g--border-color-#{$variable-text}{
+      border-color: $colorVariable;
+    }
+  }
+}
+
+
+//@each $nombrecolores,$value in $colors {
+//  $index:0;
+//  @each $color in $value{
+//    $index:$index+1;
+//    .g--color-#{$nombrecolores}-#{$index}{
+//      color: $color;
+//    }
+//    .g--background-color-#{$nombrecolores}-#{$index}{
+//      background-color: $color;
+//    }
+//    .g--border-color-#{$nombrecolores}-#{$index}{
+//      border-color: $color;
+//    }
+//  }
+//}
+
+//@each $nombrecolores,$value in $colors{
+//    @for $i from 1 through length($value){
+//      .g--color-#{$nombrecolores}-#{$i}{
+//        color: nth($value,$i);
+//      }
+//      .g--background-color-#{$nombrecolores}-#{$i}{
+//        background-color: nth($value,$i);
+//      }
+//      .g--border-color-#{$nombrecolores}-#{$i}{
+//        border-color: nth($value,$i);
+//      }
+//    }
+//}
