@@ -10,7 +10,7 @@ $colors:(
 );
 
 
-:root{
+:root{  
   @each $nombrecolores,$value in $colors {
     $index:0;
     @each $color in $value{
