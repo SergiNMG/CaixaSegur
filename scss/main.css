@@ -2417,4 +2417,24 @@ html {
   --color-yellow-8: #744210;
 }
 
+.g--opacity-0 {
+  opacity: 0;
+}
+
+.g--opacity-25 {
+  opacity: 0.25;
+}
+
+.g--opacity-50 {
+  opacity: 0.5;
+}
+
+.g--opacity-75 {
+  opacity: 0.75;
+}
+
+.g--opacity-100 {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=main.css.map */
