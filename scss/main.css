@@ -3125,4 +3125,24 @@ html {
   border-color: var(--color-yellows-9);
 }
 
+.o-0 {
+  opacity: 0;
+}
+
+.o-25 {
+  opacity: 0.25;
+}
+
+.o-50 {
+  opacity: 0.5;
+}
+
+.o-75 {
+  opacity: 0.75;
+}
+
+.o-100 {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=main.css.map */
