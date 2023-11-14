@@ -482,6 +482,29 @@ html {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.l-extreme {
+  display: flex;
+}
+.l-extreme__left-area {
+  margin-left: auto;
+}
+.l-extreme__right-area {
+  margin-right: auto;
+}
+.l-extreme__top-area {
+  margin-top: auto;
+}
+.l-extreme__bottom-area {
+  margin-bottom: auto;
+}
+.l-extreme__border-area {
+  margin-right: auto;
+  margin-left: auto;
+}
+.l-extreme__center-area {
+  margin: auto;
+}
+
 .l-position-fixed {
   position: fixed;
 }
